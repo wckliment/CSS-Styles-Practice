@@ -31,6 +31,11 @@ pre.closing {
     margin-bottom: 100px;
 }
 
+/* Hide underlines on all links */
+a {
+    text-decoration: none;
+}
+
 /* ===== DO NOT EDIT BELOW THIS COMMENT ===== */
 
 .noin {
