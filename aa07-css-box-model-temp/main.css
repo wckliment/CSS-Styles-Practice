@@ -6,15 +6,19 @@ html, body {
 /* Phase 1 */
 
 #logo {
-    /* DO NOT EDIT */
-    vertical-align: bottom;
 
-    /* Your code here 
+    vertical-align: bottom;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px; /* Adjust as needed to align with h1 */
+
 }
 
 
 h1 {
-    /* Your code here 
+
+    display: inline;
+        /* Make h1 inline instead of block */
 }
 
 /* Phase 2 */
@@ -22,12 +26,20 @@ h1 {
 .box {
     /* DO NOT EDIT */
     vertical-align: top;
-
-    /* Your code here 
+    border: 4px dotted black;
+        background-color: yellow;
+        /* Choose a suitable shade of yellow */
+        width: 120px;
+        height: 120px;
+        margin: 10px;
+        /* Add margin to separate boxes */
+        padding: 20px;
+        /* Add padding to the content inside the box */
+        display: inline-block
 }
 
 .alternate {
-    /* Your code here 
+    width: border-box /* Make width go from border to border */
 }
 
 /* Phase 3 */
@@ -43,13 +55,18 @@ h1 {
     /* DO NOT EDIT */
     background-color: lightgray;
     font-size: larger;
+    width: fit-content;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:40px
 
-    /* Your code here 
 }
 
 .attribution {
     /* DO NOT EDIT */
     font-style: italic;
 
-    /* Your code here 
+    display: block;
+        /* Make span display as a block */
 }
