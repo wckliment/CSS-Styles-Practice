@@ -1,37 +1,42 @@
 h1 {
-    font-size: ;
-    font-family: ;
+    font-size: fantasy;
+    font-family: fantasy;
     padding: ;
     margin: ;
     font-weight: ;
-    text-decoration: ;
-    color: ;
+    text-decoration: underline;
+    color: purple;
     background-color: ;
 }
 
 h2 {
     font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    color: purple;
+    background-color: whitesmoke;
+    width: fit-content
 }
 
-p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+.story-box{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px ;
+    margin: 10px;
+    color: black ;
+    background-color: whitesmoke;
 }
 
 .logo {
-    background-size: cover;
+    background-size: contain;
     background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-color: red;
+    height: 30px;
+    width: 30px ;
+}
+img {
+    height: 6px;
+    width: 6px;
 }
