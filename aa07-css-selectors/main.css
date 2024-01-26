@@ -1,4 +1,35 @@
-/* Your code here */
+#page-title {
+    font-weight: bold;
+}
+
+.pagenum {
+    position: absolute;
+    right: 10px;
+    font-size: small;
+}
+/* Justify paragraphs */
+p {
+    text-align: justify;
+}
+
+/* Reduce space between paragraphs */
+p {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+/* Center introduction and closing sections */
+pre {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/* Add extra space before and after introduction and closing sections */
+pre.intro,
+pre.closing {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 /* ===== DO NOT EDIT BELOW THIS COMMENT ===== */
 
