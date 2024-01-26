@@ -35,6 +35,30 @@ pre.closing {
 a {
     text-decoration: none;
 }
+a {
+    text-decoration: none;
+    font-weight: normal;
+    /* Set the default font weight */
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    /* Make the text bold on hover */
+}
+
+/* Links in the introduction and closing sections */
+pre a {
+    color: black;
+    /* Set the default text color */
+}
+
+pre a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    /* Ensure the text color remains black on hover */
+}
 
 /* ===== DO NOT EDIT BELOW THIS COMMENT ===== */
 
